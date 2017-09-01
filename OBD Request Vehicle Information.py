@@ -17,17 +17,17 @@
 # IF using USB-8473
 #   1) Un-comment "port=CAN1" below
 #   2) If using a demo ECU implemented via a second USB-8473 with a loopback cable (NI Part Number 192017-02)
-#       Set the LabVIEW Demo ECU to run with NI-CAN as the HW Select and "CAN0" as the CAN Interface,
+#       Set the LabVIEW Demo ECU to run with NI-CAN as the HW Select and "CAN1" as the CAN Interface,
 #       and the Diagnostic protocol as OBD-II.
 
-#port = "CAN1"  # un-comment if using USB-8473
+#port = "CAN0"  # un-comment if using USB-8473
 
 #ELSE IF using USB-8502
 #   1) Un-comment "CAN2@nixnet" below
 #   2) If using a demo ECU implemented via a USB-8502 with a loopback cable (NI Part Number 192017-02)
-#       Set the LabVIEW Demo ECU to run with NI-XNET as the HW Select and "CAN1" as the CAN Interface,
+#       Set the LabVIEW Demo ECU to run with NI-XNET as the HW Select and "CAN2" as the CAN Interface,
 #       and the Diagnostic protocol as OBD-II.
-port = "CAN2@nixnet"  #un-comment if using USB-8502
+port = "CAN1@nixnet"  #un-comment if using USB-8502
 
 # other possible parameters to set. Defaults should be fine
 baud=500000
